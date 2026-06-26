@@ -3,218 +3,341 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>l3ocky Dev Lab - Website Templates & Digital Tools</title>
-  <meta name="description" content="Premium website templates, landing pages, and digital tools for businesses, creators, and streamers." />
+  <title>L3ocky Dev Lab — Premium Website Templates & Digital Tools</title>
+  <meta name="description" content="L3ocky Dev Lab builds premium website templates, landing pages, and digital tools for businesses, creators, and streamers." />
+  <meta name="theme-color" content="#070a12" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="bg-glow bg-glow-1"></div>
-  <div class="bg-glow bg-glow-2"></div>
+  <div class="noise"></div>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="bg-orb orb-three"></div>
 
   <header class="site-header">
     <div class="container nav">
-      <a href="#" class="logo">
-        <span>l3</span>ocky Dev Lab
+      <a href="#" class="logo" aria-label="L3ocky Dev Lab">
+        <span class="logo-mark">L3</span>
+        <span>L3ocky Dev Lab</span>
       </a>
 
-      <nav class="nav-links" id="navLinks">
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
         <a href="#templates">Templates</a>
         <a href="#services">Services</a>
-        <a href="#work">Showcase</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#pricing">Pricing</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <button class="menu-btn" id="menuBtn">Menu</button>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu">Menu</button>
     </div>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero section-pad">
       <div class="container hero-grid">
-        <div class="hero-content">
-          <div class="badge">Developer Showroom • Website Templates • Digital Tools</div>
-          <h1>Premium websites for businesses, creators, and streamers.</h1>
-          <p>
-            I build modern landing pages, website templates, dashboard concepts,
-            and digital systems designed to look professional and ready for business.
+        <div class="hero-content reveal">
+          <div class="eyebrow">
+            <span class="pulse"></span>
+            Developer Showroom • Website Templates • Digital Tools
+          </div>
+
+          <h1>
+            Modern website templates built for
+            <span>real businesses.</span>
+          </h1>
+
+          <p class="hero-text">
+            I create premium landing pages, business websites, dashboard concepts,
+            and digital tools for UMKM, creators, streamers, and growing brands.
           </p>
 
           <div class="hero-actions">
             <a href="#templates" class="btn btn-primary">View Templates</a>
-            <a href="#contact" class="btn btn-secondary">Order Website</a>
+            <a href="#contact" class="btn btn-secondary">Start a Project</a>
           </div>
 
-          <div class="hero-stats">
+          <div class="trust-row" aria-label="Highlights">
             <div>
-              <strong>4+</strong>
-              <span>Template ideas</span>
+              <strong>Mobile-first</strong>
+              <span>Responsive layout</span>
             </div>
             <div>
-              <strong>Mobile</strong>
-              <span>First design</span>
+              <strong>Premium UI</strong>
+              <span>Clean modern style</span>
             </div>
             <div>
-              <strong>GitHub</strong>
-              <span>Live showcase</span>
+              <strong>GitHub Pages</strong>
+              <span>Live public showcase</span>
             </div>
           </div>
         </div>
 
-        <div class="hero-panel">
-          <div class="panel-top">
-            <span></span>
-            <span></span>
-            <span></span>
+        <aside class="hero-device reveal" aria-label="Featured projects preview">
+          <div class="device-top">
+            <span></span><span></span><span></span>
           </div>
 
-          <div class="panel-card active">
-            <small>Featured Template</small>
+          <div class="device-screen">
+            <div class="feature-card main-feature">
+              <div class="card-label">Featured Template</div>
+              <h2>Premium Kedai Kopi</h2>
+              <p>Online ordering concept for coffee shops with buyer page, cashier flow, stock guard, and owner panel.</p>
+              <div class="mini-tags">
+                <span>Buyer Page</span>
+                <span>Kasir</span>
+                <span>Owner</span>
+              </div>
+            </div>
+
+            <div class="mini-projects">
+              <div>
+                <span>01</span>
+                <strong>Wedding Invitation</strong>
+                <small>Elegant event page</small>
+              </div>
+              <div>
+                <span>02</span>
+                <strong>Booking Lapangan</strong>
+                <small>Mobile booking flow</small>
+              </div>
+              <div>
+                <span>03</span>
+                <strong>Streamer Tools</strong>
+                <small>Community dashboard</small>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="strip">
+      <div class="container strip-grid">
+        <span>Landing Page</span>
+        <span>Company Profile</span>
+        <span>Template Website</span>
+        <span>Dashboard UI</span>
+        <span>GitHub Showcase</span>
+      </div>
+    </section>
+
+    <section class="section-pad" id="templates">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p>Template Collection</p>
+          <h2>Showcase products that can become real digital assets.</h2>
+        </div>
+
+        <div class="template-grid">
+          <article class="template-card reveal">
+            <div class="template-head">
+              <div class="template-icon">☕</div>
+              <span class="status ready">Ready Concept</span>
+            </div>
             <h3>Premium Kedai Kopi</h3>
-            <p>Modern online ordering concept for coffee shops with buyer page, cashier flow, and owner panel.</p>
-          </div>
-
-          <div class="panel-card">
-            <small>Coming Soon</small>
-            <h3>Wedding Invitation</h3>
-            <p>Elegant digital invitation template with story, gallery, RSVP, and event details.</p>
-          </div>
-
-          <div class="panel-card">
-            <small>Creator Tools</small>
-            <h3>Streamer Dashboard</h3>
-            <p>Landing and dashboard concept for streamer communities, giveaway, tournament, and overlays.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="templates">
-      <div class="container">
-        <div class="section-heading">
-          <span>Templates</span>
-          <h2>Website templates I want to build and sell.</h2>
-        </div>
-
-        <div class="cards-grid">
-          <article class="template-card">
-            <div class="icon">☕</div>
-            <h3>Kedai Kopi Template</h3>
-            <p>Premium coffee shop website with menu, cart, QRIS-ready concept, cashier flow, and owner dashboard.</p>
-            <a href="#contact">Request demo</a>
+            <p>Coffee shop website concept with product menu, cart, QRIS-ready flow, cashier alert, and owner dashboard.</p>
+            <div class="card-tags">
+              <span>UMKM</span>
+              <span>Food & Beverage</span>
+              <span>Dashboard</span>
+            </div>
           </article>
 
-          <article class="template-card">
-            <div class="icon">💌</div>
+          <article class="template-card reveal">
+            <div class="template-head">
+              <div class="template-icon">💌</div>
+              <span class="status soon">Demo Soon</span>
+            </div>
             <h3>Wedding Invitation</h3>
-            <p>Digital invitation template with modern layout, guest information, event details, gallery, and RSVP concept.</p>
-            <a href="#contact">Request demo</a>
+            <p>Elegant digital invitation template with couple story, gallery, countdown, location, guest book, and RSVP.</p>
+            <div class="card-tags">
+              <span>Event</span>
+              <span>Mobile</span>
+              <span>Template</span>
+            </div>
           </article>
 
-          <article class="template-card">
-            <div class="icon">⚽</div>
+          <article class="template-card reveal">
+            <div class="template-head">
+              <div class="template-icon">⚽</div>
+              <span class="status build">In Build</span>
+            </div>
             <h3>Booking Lapangan</h3>
-            <p>Mobile-first booking concept for futsal or badminton field rental using booking ID and transaction ID.</p>
-            <a href="#contact">Request demo</a>
+            <p>Simple mobile-first booking website for futsal or badminton using booking ID and transaction ID.</p>
+            <div class="card-tags">
+              <span>Booking</span>
+              <span>QRIS</span>
+              <span>No Login</span>
+            </div>
           </article>
 
-          <article class="template-card">
-            <div class="icon">🎮</div>
+          <article class="template-card reveal">
+            <div class="template-head">
+              <div class="template-icon">🎮</div>
+              <span class="status custom">Custom</span>
+            </div>
             <h3>Streamer Tools</h3>
-            <p>Community website concept for streamers with giveaway, tournament, bonus hunt, and dashboard pages.</p>
-            <a href="#contact">Request demo</a>
+            <p>Website concept for streamer communities with giveaway, tournament, bonus hunt, overlays, and admin pages.</p>
+            <div class="card-tags">
+              <span>Kick</span>
+              <span>Streamer</span>
+              <span>Dashboard</span>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section muted" id="services">
-      <div class="container">
-        <div class="section-heading">
-          <span>Services</span>
-          <h2>What I can build.</h2>
+    <section class="section-pad muted" id="services">
+      <div class="container service-grid">
+        <div class="section-heading left reveal">
+          <p>Services</p>
+          <h2>From simple landing pages to polished dashboard concepts.</h2>
+          <span class="section-note">
+            The focus is clean UI, mobile-ready layouts, and websites that look ready to sell.
+          </span>
         </div>
 
-        <div class="service-list">
-          <div class="service-item">
-            <h3>Landing Page</h3>
-            <p>Clean one-page website for products, services, portfolio, or business introduction.</p>
+        <div class="services-list">
+          <div class="service-item reveal">
+            <span>01</span>
+            <div>
+              <h3>Landing Page</h3>
+              <p>One-page website for products, personal brands, services, and marketing campaigns.</p>
+            </div>
           </div>
 
-          <div class="service-item">
-            <h3>Company Profile</h3>
-            <p>Professional website for small businesses, local brands, shops, and service providers.</p>
+          <div class="service-item reveal">
+            <span>02</span>
+            <div>
+              <h3>Business Website</h3>
+              <p>Company profile or UMKM website with sections for services, products, gallery, and contact.</p>
+            </div>
           </div>
 
-          <div class="service-item">
-            <h3>Website Template</h3>
-            <p>Reusable template design that can be customized and sold to multiple clients.</p>
+          <div class="service-item reveal">
+            <span>03</span>
+            <div>
+              <h3>Template Customization</h3>
+              <p>Customize an existing template into a new brand, layout, color style, or business category.</p>
+            </div>
           </div>
 
-          <div class="service-item">
-            <h3>Dashboard UI Concept</h3>
-            <p>Modern admin, cashier, owner, streamer, or customer dashboard interface concept.</p>
+          <div class="service-item reveal">
+            <span>04</span>
+            <div>
+              <h3>Dashboard UI Concept</h3>
+              <p>Admin, owner, cashier, streamer, booking, or customer dashboard interface design concept.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="work">
-      <div class="container showcase">
-        <div>
-          <div class="section-heading left">
-            <span>Showcase</span>
-            <h2>This GitHub page will become my digital showroom.</h2>
-          </div>
+    <section class="section-pad" id="showcase">
+      <div class="container showcase-grid">
+        <div class="showcase-copy reveal">
+          <p class="section-kicker">Showcase Direction</p>
+          <h2>This GitHub page becomes my digital showroom.</h2>
           <p>
-            The goal is to turn this page into a professional place to show my templates,
-            demo links, pricing, and website services.
+            Every template can later have its own live demo page, screenshot gallery,
+            feature list, documentation, and order button.
           </p>
+          <a href="#contact" class="text-link">Discuss a project →</a>
         </div>
 
-        <div class="showcase-box">
+        <div class="showcase-panel reveal">
           <div class="showcase-row">
-            <span>Live Website</span>
+            <span>Live Domain</span>
             <strong>l3ockydev.github.io</strong>
           </div>
           <div class="showcase-row">
-            <span>Focus</span>
+            <span>Current Focus</span>
             <strong>Templates & Web Services</strong>
           </div>
           <div class="showcase-row">
-            <span>Style</span>
+            <span>Design Style</span>
             <strong>Premium Dark UI</strong>
           </div>
           <div class="showcase-row">
-            <span>Status</span>
-            <strong>Building in public</strong>
+            <span>Next Step</span>
+            <strong>Separate demo pages</strong>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section contact-section" id="contact">
-      <div class="container contact-card">
-        <span>Contact</span>
-        <h2>Need a website or custom template?</h2>
+    <section class="section-pad muted" id="pricing">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p>Simple Pricing Direction</p>
+          <h2>Clear packages for clients who need a website fast.</h2>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card reveal">
+            <span class="pricing-label">Starter</span>
+            <h3>Landing Page</h3>
+            <p>For personal profile, service introduction, or simple product page.</p>
+            <ul>
+              <li>1 page design</li>
+              <li>Mobile responsive</li>
+              <li>WhatsApp CTA</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">Ask Price</a>
+          </article>
+
+          <article class="pricing-card featured-price reveal">
+            <span class="pricing-label">Most Useful</span>
+            <h3>Business Website</h3>
+            <p>For UMKM, local brands, shops, service providers, and small businesses.</p>
+            <ul>
+              <li>Multiple sections</li>
+              <li>Product/service showcase</li>
+              <li>Contact and social links</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Start Order</a>
+          </article>
+
+          <article class="pricing-card reveal">
+            <span class="pricing-label">Custom</span>
+            <h3>Template / Dashboard</h3>
+            <p>For custom template, dashboard UI, admin panel concept, or special business flow.</p>
+            <ul>
+              <li>Custom layout</li>
+              <li>Feature planning</li>
+              <li>Demo-ready structure</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">Discuss</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div class="contact-badge">Available for custom work</div>
+        <h2>Let’s build a website that looks premium and ready to sell.</h2>
         <p>
-          Contact me for landing pages, business websites, template customization,
-          or dashboard interface concepts.
+          Send your idea, business type, reference design, and required pages.
+          I can help turn it into a landing page, company profile, or template concept.
         </p>
 
         <div class="contact-actions">
-          <a class="btn btn-primary" href="https://wa.me/6281234567890" target="_blank">WhatsApp</a>
-          <a class="btn btn-secondary" href="https://github.com/l3ockydev" target="_blank">GitHub</a>
+          <a class="btn btn-primary" href="https://wa.me/6281234567890" target="_blank" rel="noreferrer">WhatsApp</a>
           <a class="btn btn-secondary" href="mailto:maxcellsurabaya@gmail.com">Email</a>
+          <a class="btn btn-secondary" href="https://github.com/l3ockydev" target="_blank" rel="noreferrer">GitHub</a>
         </div>
 
-        <small>Replace the WhatsApp number later with your real business number.</small>
+        <small>Reminder: replace the WhatsApp number with your real business number.</small>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-content">
-      <p>© <span id="year"></span> l3ocky Dev Lab. Built with GitHub Pages.</p>
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> L3ocky Dev Lab. Built with GitHub Pages.</p>
       <a href="#">Back to top</a>
     </div>
   </footer>
