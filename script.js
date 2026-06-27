@@ -175,7 +175,49 @@ const idTranslations = {
   "Send your brand name, menu list, logo, preferred color, reference design, and the features you need. I can customize the template direction for your business.": "Kirim nama brand, daftar menu, logo, warna pilihan, referensi desain, dan fitur yang dibutuhkan. Saya bisa menyesuaikan arah template untuk bisnismu.",
   "Contact WhatsApp": "Hubungi WhatsApp",
   "Back to Showroom": "Kembali ke Showroom",
-  "L3ocky Dev Lab. Premium Coffee Cafe Template Showcase.": "L3ocky Dev Lab. Showcase Template Premium Coffee Cafe."
+  "L3ocky Dev Lab. Premium Coffee Cafe Template Showcase.": "L3ocky Dev Lab. Showcase Template Premium Coffee Cafe.",
+  "Overview": "Overview",
+  "Screenshots": "Screenshot",
+  "Real cafe storefront preview": "Preview storefront kafe realistis",
+  "A realistic coffee shop storefront with online menu, cart flow, cashier POS screenshot, and owner dashboard screenshot. This showcase uses selected visuals from the full template without exposing the private backend.": "Storefront kedai kopi realistis dengan menu online, alur keranjang, screenshot POS kasir, dan screenshot dashboard owner. Showcase ini memakai visual pilihan dari template lengkap tanpa membuka backend private.",
+  "View Menu Preview": "Lihat Preview Menu",
+  "See Dashboard Screenshots": "Lihat Screenshot Dashboard",
+  "Template highlights": "Sorotan template",
+  "Menu and cart flow": "Alur menu dan keranjang",
+  "Cashier POS": "POS Kasir",
+  "Walk-in order screen": "Layar order walk-in",
+  "Owner Panel": "Panel Owner",
+  "Sales and stock view": "Tampilan sales dan stok",
+  "Menu Preview": "Preview Menu",
+  "Real product photos,": "Foto produk realistis,",
+  "clean ordering cards.": "kartu order yang rapi.",
+  "Cold black coffee with a bright roasted finish.": "Kopi hitam dingin dengan rasa roasted yang clean.",
+  "Balanced espresso, steamed milk, and soft foam.": "Espresso seimbang, steamed milk, dan foam lembut.",
+  "Creamy matcha latte with a fresh green tea aroma.": "Matcha latte creamy dengan aroma green tea yang fresh.",
+  "Butter Croissant": "Butter Croissant",
+  "Flaky pastry for dine-in, takeaway, and bundles.": "Pastry flaky untuk dine-in, takeaway, dan paket bundle.",
+  "Ordering Direction": "Arah Pemesanan",
+  "From storefront to": "Dari storefront ke",
+  "cashier and owner control.": "kontrol kasir dan owner.",
+  "The public page shows the real buying direction only. The private source can include product management, QRIS-ready checkout, cash orders, stock guard, delivery notes, and WhatsApp notifications.": "Halaman publik hanya menunjukkan arah pembelian. Source private bisa mencakup manajemen produk, checkout siap QRIS, order cash, penjaga stok, catatan delivery, dan notifikasi WhatsApp.",
+  "Products use real photos, prices, categories, and mobile-first ordering cards.": "Produk memakai foto asli, harga, kategori, dan kartu order mobile-first.",
+  "The checkout direction can support QRIS, cash, take away, dine in, or delivery.": "Arah checkout bisa mendukung QRIS, cash, take away, dine in, atau delivery.",
+  "Cashier can process walk-in orders, print tickets, and monitor online orders.": "Kasir bisa memproses order walk-in, mencetak tiket, dan memantau order online.",
+  "Owner dashboard direction includes sales, stock, products, marketing, and reports.": "Arah dashboard owner mencakup penjualan, stok, produk, marketing, dan laporan.",
+  "Panel Screenshots": "Screenshot Panel",
+  "Cashier and owner previews": "Preview kasir dan owner",
+  "without publishing backend files.": "tanpa mempublikasikan file backend.",
+  "Walk-in order screen with product picker, cash cart, customer field, and print-ready action.": "Layar order walk-in dengan pemilih produk, cart cash, field customer, dan aksi siap print.",
+  "Owner screen direction for daily sales, QRIS and cash split, recent orders, and stock alerts.": "Arah layar owner untuk penjualan harian, pembagian QRIS dan cash, order terbaru, dan alert stok.",
+  "Use it as a showcase, template, or custom cafe system.": "Gunakan sebagai showcase, template, atau sistem kafe custom.",
+  "Realistic storefront": "Storefront realistis",
+  "Selected screenshots": "Screenshot pilihan",
+  "Template customized with brand name, logo, colors, menu, WhatsApp, and business information.": "Template dikustomisasi dengan nama brand, logo, warna, menu, WhatsApp, dan informasi bisnis.",
+  "Mobile menu layout": "Layout menu mobile",
+  "Content and CTA setup": "Setup konten dan CTA",
+  "Owner and cashier flow": "Alur owner dan kasir",
+  "Send your brand name, menu list, logo, preferred color, reference design, and the features you need. The full source, backend flow, and database structure stay private until requested.": "Kirim nama brand, daftar menu, logo, warna pilihan, referensi desain, dan fitur yang dibutuhkan. Source lengkap, alur backend, dan struktur database tetap private sampai diminta.",
+  "Premium Coffee Cafe Template Showcase.": "Showcase Template Premium Coffee Cafe."
 };
 
 const idAttributeTranslations = {
@@ -189,7 +231,11 @@ const idAttributeTranslations = {
   "Featured projects preview": "Preview proyek unggulan",
   "Highlights": "Sorotan",
   "Page navigation": "Navigasi halaman",
-  "Coffee website preview mockup": "Mockup preview website kopi"
+  "Coffee website preview mockup": "Mockup preview website kopi",
+  "Premium Coffee Cafe Template - L3ocky Dev Lab": "Template Premium Coffee Cafe - L3ocky Dev Lab",
+  "Realistic premium coffee shop website template showcase with online menu, cashier POS screenshot, and owner dashboard screenshot.": "Showcase template website kedai kopi premium realistis dengan menu online, screenshot POS kasir, dan screenshot dashboard owner.",
+  "Back to L3ocky Dev Lab": "Kembali ke L3ocky Dev Lab",
+  "Template highlights": "Sorotan template"
 };
 
 const normalizeText = (value) => value.replace(/\s+/g, " ").trim();
